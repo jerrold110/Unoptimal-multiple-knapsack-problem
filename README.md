@@ -3,4 +3,4 @@
 
 This is a variation of the Knapsack problem: a multiple knapsack problem involving products and shelves, shelves have limited width and products have a fixed width and profit value, and the problem is to find an optimal solution that fills all shelves with the most profitable products. 
 
-The first solution uses greedy strategy, first by sorting the shelves in order of value to ratio then filling the shelves. The second solution uses with the divide and conquer strategy with bruteforce, each individual shelf is filled by finding the best available combination with the remaining products.
+The first solution uses greedy strategy, first by sorting the shelves in order of value to ratio then filling the shelves. The second solution uses with the divide and conquer strategy with bruteforce, each individual shelf is filled by finding the best available combination with the remaining products. More solutions will be added to this repository over time as I find better solutions to this computer science problem.
