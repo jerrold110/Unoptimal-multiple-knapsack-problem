@@ -1,2 +1,6 @@
 # Unoptimal multiple knapsack algorithm
- This is an unoptimal solution to a multiple knapsack problem
+ This is an unoptimal solution to a multiple knapsack problem. Knapsack problems are combinatorial optimization problems where the goal is to maximize the sum of the values of the items in the knapsack so that the sum of weights does not exceed the limit of the knapsack. 0-1 Knapsack problems frequently appear in computer algorithms courses to demonstrate the application of various algorithmic strategies to a problem with many approaches. Different algorithms have different complexities and achieve the goal of a perfect optimal solution to different degrees. 
+
+This is a variation of the Knapsack problem: a multiple knapsack problem involving products and shelves, shelves have limited width and products have a fixed width and profit value, and the problem is to find an optimal solution that fills all shelves with the most profitable products. 
+
+The first solution uses greedy strategy, first by sorting the shelves in order of value to ratio then filling the shelves. The second solution uses with the divide and conquer strategy with bruteforce, each individual shelf is filled by finding the best available combination with the remaining products.
